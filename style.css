@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+	
+}
+
+#bg1{
+	height: 100vh;
+	background-color:  #ac00e6;
+	z-index: 1;
+}
+#bg2{
+	height: 100vh;
+	background-color:rgb(246, 246, 246);
+	scroll-snap-type: mandatory;
+	
+}
+#bg1 .bg1-image{
+	position: relative;
+	width: 250px;
+	width: 250px;
+	border-radius: 100%;
+	float: right;
+	margin-right: -120px;
+	margin-top: 5vmax;
+	z-index: 100;
+
+
+
+}
+
+
+
+
+
+.carosoul{
+
+	height: 742px;
+	overflow-y: scroll;
+}
+.page1,.page2,.page3,.page4,.page6,.page7{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	overflow-y: hidden;
+
+
+}
+.page5{
+	height: 100vh;
+}
+.page1 img{
+	width: 40%;
+	height: 70%;
+}
+.page2 img{
+	width: 40%;
+	height: 70%;
+}
+.img21{
+	margin-bottom: -230px;
+}
+.img22{
+	margin-top: -230px;
+}
+.page3 img{
+	
+	height: 70%;
+}
+.img32{
+	margin-top: -230px;
+	margin-left: 3vmax;
+}
+.page4 img{
+
+	height: 70%;
+}
+.img41{
+	margin-bottom: -230px;
+}
+.page5 img{
+	width: 40%;
+	height: 70%;
+}
+.page6{
+	background-image: url("Images/interior.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.page6 img{
+	width: 100%;
+	height: 100%;
+}
+.page7 img{
+	margin-left: 35vmax;
+	margin-top: 10vmax;
+	height: 70%;
+}
+#img7{
+	position: absolute;
+	margin-left: 8vmax;
+	margin-top: 20vmax;
+}
+
+
+
+svg circle{
+	z-index: 100;
+}
+svg{
+	float: right;
+	position: relative;
+	margin-right: -250px;
+	margin-top: 5vmax;
+	background-color: #ac00e6;
+	border-radius: 50%;
+	
+
+
+	
+
+}
+
+ .page1-text h1,.page2-text h1{
+	position: absolute;
+	margin-top: 11vmax;
+	margin-left: 22vmax;
+	width: 100%;
+ }
+ .page1-text p,.page2-text p{
+	position: absolute;
+	margin-top: 14vmax;
+	margin-left: 28vmax;
+	width: 100%
+ }
+#bg2-image{
+	position: absolute;
+	margin-top: 20vmax;
+	margin-left: 2vmax;
+	border-radius: 0%;
+ }
+ @media only screen and (max-width: 600px) {
+	#bg1{
+		height:60vh;
+		background-color:  #ac00e6;
+		z-index: 1;
+	}
+	#bg2{
+		height:60vh;
+		width: 100%;
+		background-color:rgb(246, 246, 246);
+		scroll-snap-type: mandatory;
+		
+	}
+	#bg1 img{
+		display: none;
+		
+	}
+	.page1-text{
+		margin-top: -20vmax;
+	
+	}
+
+.carosoul img{
+	height: 50vmax;
+	margin: auto;
+}
+
+	
+  }
